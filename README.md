@@ -1,5 +1,7 @@
 # Wikipedia
 
+[![Continous Integration](https://gitlab.com/project-alice-assistant/skills/skill_Wikipedia/badges/master/pipeline.svg)](https://gitlab.com/project-alice-assistant/skills/skill_Wikipedia/pipelines/latest)
+
 ### Download
 
 ##### > WGET method
