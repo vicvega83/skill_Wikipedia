@@ -13,12 +13,12 @@ wget http://skills.projectalice.ch/Wikipedia \
 ### Description
 Allows one to find informations about a topic on wikipedia
 
-- Version: 1.0.42
+- Version: 1.1.0
 - Author: Psychokiller1888
 - Maintainers:
     - Jierka
     - maxbachmann
-- Alice minimum Version: 1.0.0-a4
+- Alice minimum Version: 1.0.0-a5
 - Conditions:
   - en
   - fr
