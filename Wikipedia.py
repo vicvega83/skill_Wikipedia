@@ -48,13 +48,13 @@ class Wikipedia(AliceSkill):
 		except OfflineError:
 			self.endDialog(sessionId=session.sessionId, text=self.randomTalk('offline', skill='system'))
 		except wikipedia.DisambiguationError as e:
-			self.log.warning(msg=e)
+			self.logWarning(msg=e)
 			self._whatToSearch(session, 'ambiguous')
 		except wikipedia.WikipediaException as e:
-			self.log.warning(msg=e)
+			self.logWarning(msg=e)
 			self._whatToSearch(session, 'noMatch')
 		except Exception as e:
-			self.log.warning(msg=e, printStack=True)
+			self.logWarning(msg=e, printStack=True)
 		else:
 			if not result:
 				self._whatToSearch(session, 'noMatch')
