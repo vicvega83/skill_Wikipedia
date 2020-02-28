@@ -52,7 +52,7 @@
 					"name": "What",
 					"description": null,
 					"required": false,
-					"type": "RandomWords",
+					"type": "Alice/RandomWords",
 					"missingQuestion": ""
 				}
 			]
